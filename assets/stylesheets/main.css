@@ -74,12 +74,12 @@ body {
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
+    height: 50%;
     object-fit: cover;
     z-index: 1;
 }
 
-div.content {
+.slide {
     position: relative;
     float: right;
     width: 80%;
@@ -87,7 +87,7 @@ div.content {
     z-index: 2;
 }
 
-.intro {
+.header {
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -96,41 +96,51 @@ div.content {
     justify-content: center;
     flex-direction: row;
     width: 100%;
-    min-height: 100%;
+    height: 50%;
 }
 
-.intro-content {
-    align-self: center;
+.header-content {
+    align-self: flex-end;
     text-align: center;
+    color: white;
+}
+
+.intro {
+    display: block;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    color: mediumpurple;
+    padding-top: 2%;
 }
 
 ul {
     float: left;
-    padding: 10% 0;
     width: 20%;
+    height: 100%;
     /*background-color: #f1f1f1;*/
-    height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
     z-index: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 li a {
     display: block;
     text-decoration: none;
-    color: #000;
+    background-color: rgb(72, 72, 72);
+    color: #ffffff;
     padding: 10% 0;
+    border-radius: 10px;
 }
 
 li {
     font-family: "Cardo", Calibri;
     font-size: 20px;
     text-align: center;
-    border-bottom: 1px solid #f1f1f1;
-}
-
-li:last-child {
-    border-bottom: none;
+    border-bottom: 2px solid transparent;
 }
 
 li a:hover {
@@ -149,7 +159,14 @@ li a:hover {
   ========================================
 */
 
-h1 {
+h1, h2, h3 {
     font-family: "Montserrat", "Century Gothic";
-    font-size: 80px;
+}
+
+h1 {
+    font-size: 120px;
+}
+
+h3 {
+    font-size: 30px;
 }
