@@ -67,6 +67,7 @@ html {
 body {
     background: #000;
     height: 100%;
+    background-color: indigo;
 }
 
 .background-image {
@@ -87,7 +88,7 @@ body {
     z-index: 2;
 }
 
-.header {
+.header-container {
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -102,25 +103,48 @@ body {
 .header-content {
     align-self: flex-end;
     text-align: center;
-    color: white;
 }
 
-.intro {
-    display: block;
+.intro-content {
     width: 100%;
     height: 50%;
     text-align: center;
-    color: mediumpurple;
+    color: white;
     padding-top: 2%;
+}
+
+.about-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    background-color: darkgreen;
+}
+
+.profile-pic {
+    align-self: center;
+    height: 70%;
+    width: auto;
+}
+
+.about-content {
+    align-self: center;
+    text-align: left;
+    width: 50%;
+    height: 70%;
 }
 
 ul {
     float: left;
     width: 20%;
     height: 100%;
-    /*background-color: #f1f1f1;*/
-    position: fixed; /* Make it stick, even on scroll */
-    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    position: fixed;
+    overflow: auto;
     z-index: 2;
     display: flex;
     justify-content: center;
@@ -130,8 +154,8 @@ ul {
 li a {
     display: block;
     text-decoration: none;
-    background-color: rgb(72, 72, 72);
-    color: #ffffff;
+    background-color: rgb(9, 38, 68);
+    color: white;
     padding: 10% 0;
     border-radius: 10px;
 }
