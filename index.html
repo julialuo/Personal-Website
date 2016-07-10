@@ -10,10 +10,10 @@
 <body>
     <img src = "assets/images/background1.jpg" class="background-image">
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="news.asp">About</a></li>
-            <li><a href="contact.asp">Projects</a></li>
-            <li><a href="about.asp">Contact</a></li>
+            <li><a id = "top-nav" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a id = "bottom-nav" href="#contact">Contact</a></li>
         </ul>
     <div id = "home" class = "slide">
         <div class = "header-container">
@@ -25,7 +25,7 @@
             <h3>- Innovator - Programmer - Designer -</h3>
         </div>
     </div>
-    <div class = "slide">
+    <div id = "about" class = "slide">
         <div class = "header-container">
             <div class = "header-content" style = "color: rgb(138, 255, 138);">
                 <h1>About Me</h1>
@@ -34,7 +34,21 @@
         <div class = "about-container">
             <img src = "assets/images/profilepic.png" class = "profile-pic">
             <div class = "about-content">
-                <h3>Hi</h3>
+                <p>Hi! I am Julia Luo and I am currently a freshman at UC Berkeley studying Electrical Engineering and Computer Science</p>
+            </div>
+        </div>
+    </div>
+    <div id = "projects" class = "slide">
+        <div class = "header-container">
+            <div class = "header-content" style = "color: rgb(255, 179, 181);">
+                <h1>Projects</h1>
+            </div>
+        </div>
+    </div>
+    <div id = "contact" class = "slide">
+        <div class = "header-container">
+            <div class = "header-content" style = "color: rgb(255, 188, 121);">
+                <h1>Contact Me</h1>
             </div>
         </div>
     </div>

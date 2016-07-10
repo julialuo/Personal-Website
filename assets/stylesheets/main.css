@@ -103,6 +103,7 @@ body {
 .header-content {
     align-self: flex-end;
     text-align: center;
+    padding: 1% 0;
 }
 
 .intro-content {
@@ -130,13 +131,17 @@ body {
     align-self: center;
     height: 70%;
     width: auto;
+    border: 2px solid white;
 }
 
 .about-content {
     align-self: center;
     text-align: left;
+    color: white;
+    padding: 0 2%;
     width: 50%;
     height: 70%;
+    line-height: 2em;
 }
 
 ul {
@@ -157,7 +162,6 @@ li a {
     background-color: rgb(9, 38, 68);
     color: white;
     padding: 10% 0;
-    border-radius: 10px;
 }
 
 li {
@@ -177,6 +181,14 @@ li a:hover {
     color: white;
 }
 
+#top-nav {
+    border-radius: 12px 12px 0 0;
+}
+
+#bottom-nav {
+    border-radius: 0 0 12px 12px;
+}
+
 /*
   ========================================
   Typography
@@ -193,4 +205,9 @@ h1 {
 
 h3 {
     font-size: 30px;
+}
+
+p {
+    font-family: "Cardo", Calibri;
+    font-size: 20px;
 }
