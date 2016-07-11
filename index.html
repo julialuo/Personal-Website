@@ -5,77 +5,86 @@
     <title>Julia Luo</title>
     <link rel="stylesheet" href="assets/stylesheets/main.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Cardo:400,700,400italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <img src = "assets/images/background1.jpg" class="background-image">
         <ul>
-            <li><a id = "top-nav" href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a id = "bottom-nav" href="#contact">Contact</a></li>
+            <li><a id = "home-nav" href="#home" class = "active" onclick = "nav_click(this.id)">Home</a></li>
+            <li><a id = "about-nav" href="#about" onclick = "nav_click(this.id)">About</a></li>
+            <li><a id = "projects-hav" href="#projects" onclick = "nav_click(this.id)">Projects</a></li>
+            <li><a id = "contact-nav" href="#contact" onclick = "nav_click(this.id)">Contact</a></li>
         </ul>
-    <div id = "home" class = "slide">
-        <div class = "header-container">
-            <div class = "header-content" style = "color: rgb(181, 170, 255);">
-                <h1>Julia Luo</h1>
+    <div class = "background" style = "background-color: indigo;">
+        <div id = "home" class = "slide">
+            <div class = "header-container">
+                <div class = "header-content" style = "color: rgb(181, 170, 255);">
+                    <h1>Julia Luo</h1>
+                </div>
             </div>
-        </div>
-        <div class = "intro-content">
-            <h3>- Innovator - Programmer - Designer -</h3>
-        </div>
-    </div>
-    <div id = "about" class = "slide">
-        <div class = "header-container">
-            <div class = "header-content" style = "color: rgb(138, 255, 138);">
-                <h1>About Me</h1>
-            </div>
-        </div>
-        <div class = "about-container">
-            <img src = "assets/images/profilepic.png" class = "profile-pic">
-            <div class = "about-content">
-                <p>Hi! I am Julia Luo and I am currently a freshman at UC Berkeley studying towards an Electrical
-                    Engineering and Computer Science major.</p>
+            <div class = "intro-content">
+                <h3>- Innovator - Programmer - Designer -</h3>
             </div>
         </div>
     </div>
-    <div id = "projects" class = "slide">
-        <div class = "header-container">
-            <div class = "header-content" style = "color: rgb(255, 179, 181);">
-                <h1>Projects</h1>
+    <div class = "background" style = "background-color: darkgreen;">
+        <div id = "about" class = "slide">
+            <div class = "header-container">
+                <div class = "header-content" style = "color: rgb(138, 255, 138);">
+                    <h1>About Me</h1>
+                </div>
+            </div>
+            <div class = "about-container">
+                <img src = "assets/images/profilepic.png" class = "profile-pic">
+                <div class = "about-content">
+                    <p>Hi! I am Julia Luo and I am currently a freshman at UC Berkeley studying towards an Electrical
+                        Engineering and Computer Science major.</p>
+                </div>
             </div>
         </div>
-        <div class = "project-container">
+    </div>
+    <div class = "background" style = "background-color: rgb(255, 85, 85);">
+        <div id = "projects" class = "slide">
+            <div class = "header-container">
+                <div class = "header-content" style = "color: rgb(255, 179, 181);">
+                    <h1>Projects</h1>
+                </div>
+            </div>
+            <div class = "projects-container">
 
-        </div>
-    </div>
-    <div id = "contact" class = "slide">
-        <div class = "header-container">
-            <div class = "header-content" style = "color: rgb(255, 188, 121);">
-                <h1>Contact Me</h1>
             </div>
         </div>
-        <div class = "contact-container">
-            <a href = "mailto:juliazhiyuan.luo@gmail.com" class = "contact-link">
-                <img src = "assets/images/contact%20logos/email.png" class = "contact-logo">
-            </a>
-            <a href = "https://www.facebook.com/juliazluo" class = "contact-link">
-                <img src = "assets/images/contact%20logos/facebook.png" class = "contact-logo">
-            </a>
-            <a href = "https://ca.linkedin.com/in/julia-luo-008962124" class = "contact-link">
-                <img src = "assets/images/contact%20logos/linkedin.png" class = "contact-logo">
-            </a>
-            <a href = "https://github.com/julialuo" class = "contact-link">
-                <img src = "assets/images/contact%20logos/github.png" class = "contact-logo">
-            </a>
-            <a href = "bla" class = "contact-link">
-                <img src = "assets/images/contact%20logos/resume.png" class = "contact-logo">
-            </a>
+    </div>
+    <div class = "background" style = "background-color: darkorange;">
+        <div id = "contact" class = "slide">
+            <div class = "header-container">
+                <div class = "header-content" style = "color: rgb(255, 188, 121);">
+                    <h1>Contact Me</h1>
+                </div>
+            </div>
+            <div class = "contact-container">
+                <a href = "mailto:juliazhiyuan.luo@gmail.com" class = "contact-link">
+                    <img src = "assets/images/contact%20logos/email.png" class = "contact-logo">
+                </a>
+                <a href = "https://www.facebook.com/juliazluo" class = "contact-link">
+                    <img src = "assets/images/contact%20logos/facebook.png" class = "contact-logo">
+                </a>
+                <a href = "https://ca.linkedin.com/in/julia-luo-008962124" class = "contact-link">
+                    <img src = "assets/images/contact%20logos/linkedin.png" class = "contact-logo">
+                </a>
+                <a href = "https://github.com/julialuo" class = "contact-link">
+                    <img src = "assets/images/contact%20logos/github.png" class = "contact-logo">
+                </a>
+                <a href = "bla" class = "contact-link">
+                    <img src = "assets/images/contact%20logos/resume.png" class = "contact-logo">
+                </a>
+            </div>
+            <div class = "footer">
+                <p>© Julia Luo, 2016</p>
+            </div>
         </div>
     </div>
-    <div class = "footer">
-        <p>Hi</p>
-    </div>
+
+    <script src = "assets/js/main.js"></script>
 </body>
 </html>
