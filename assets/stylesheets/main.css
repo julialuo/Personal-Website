@@ -144,6 +144,47 @@ body {
     line-height: 2em;
 }
 
+.project-container {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 85, 85);
+}
+
+.contact-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    background-color: darkorange;
+    padding: 2% 0;
+}
+
+.contact-link {
+    display: block;
+    padding: 0 0.5%;
+    width: 100px;
+    height: 100px;
+}
+
+.contact-logo {
+    align-self: flex-start;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.footer { /*not working*/
+    position: relative;
+    width: 100%;
+    height: 20px;
+    color: white;
+}
+
 ul {
     float: left;
     width: 20%;
@@ -165,7 +206,7 @@ li a {
 }
 
 li {
-    font-family: "Cardo", Calibri;
+    font-family: "Lato", Calibri;
     font-size: 20px;
     text-align: center;
     border-bottom: 2px solid transparent;
@@ -208,6 +249,6 @@ h3 {
 }
 
 p {
-    font-family: "Cardo", Calibri;
+    font-family: "Lato", Calibri;
     font-size: 20px;
 }
