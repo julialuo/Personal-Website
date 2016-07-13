@@ -10,13 +10,13 @@
 <body>
     <img src = "assets/images/background1.jpg" class="background-image">
         <ul>
-            <li><a id = "home-nav" href="#home" class = "active" onclick = "nav_click(this.id)">Home</a></li>
-            <li><a id = "about-nav" href="#about" onclick = "nav_click(this.id)">About</a></li>
-            <li><a id = "projects-hav" href="#projects" onclick = "nav_click(this.id)">Projects</a></li>
-            <li><a id = "contact-nav" href="#contact" onclick = "nav_click(this.id)">Contact</a></li>
+            <li><a id = "home-nav" href="#home" class = "active">Home</a></li>
+            <li><a id = "about-nav" href="#about">About</a></li>
+            <li><a id = "projects-nav" href="#projects">Projects</a></li>
+            <li><a id = "contact-nav" href="#contact">Contact</a></li>
         </ul>
     <div class = "background" style = "background-color: indigo;">
-        <div id = "home" class = "slide">
+        <div id = "home" class = "fade-in slide">
             <div class = "header-container">
                 <div class = "header-content" style = "color: rgb(181, 170, 255);">
                     <h1>Julia Luo</h1>
@@ -85,6 +85,9 @@
         </div>
     </div>
 
+    <script src = "assets/js/jquery-3.0.0.min.js"></script>
+    <script src = "assets/js/jquery.waypoints.min.js"></script>
     <script src = "assets/js/main.js"></script>
+
 </body>
 </html>

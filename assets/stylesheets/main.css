@@ -109,6 +109,7 @@ body {
     align-self: flex-end;
     text-align: center;
     padding: 1% 0;
+    opacity: 0.9;
 }
 
 .intro-content {
@@ -235,6 +236,17 @@ li a:hover {
 
 #contact-nav {
     border-radius: 0 0 12px 12px;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 4s ease-in 1 forwards;
 }
 
 /*
