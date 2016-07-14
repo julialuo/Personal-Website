@@ -225,11 +225,6 @@ li a:hover {
     color: white;
 }
 
-.active {
-    background-color: rgb(19, 73, 128);
-    color: white;
-}
-
 #home-nav {
     border-radius: 12px 12px 0 0;
 }
