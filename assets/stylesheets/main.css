@@ -110,6 +110,7 @@ body {
     text-align: center;
     padding: 1% 0;
     opacity: 0.9;
+    text-shadow: 0.05em 0.05em black
 }
 
 .home-container {
@@ -215,11 +216,6 @@ li {
     font-size: 20px;
     text-align: center;
     border-bottom: 2px solid transparent;
-}
-
-li a:hover {
-    background-color: lightgray;
-    color: white;
 }
 
 #home-nav {
