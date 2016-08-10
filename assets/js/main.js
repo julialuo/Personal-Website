@@ -4,6 +4,15 @@
 
 $(document).ready(function() {
 
+    //check window size when document loads
+    if($(window).width() <= 600) {
+        $("#profile-pic").attr("src", "assets/images/profilepic cropped.png");
+    }
+    else {
+        $("#profile-pic").attr("src", "assets/images/profilepic.png");
+    }
+
+    //colour changes on home page based on cursor position
     $(document).mousemove(function(e){
         var $width = ($(document).width())/255;
         var $height = ($(document).height())/255;
@@ -27,8 +36,21 @@ $(document).ready(function() {
 
                 window.location.hash = hash;
             });
-        } // End if
+        }
     });
+
+
+    //check window size again whenever window is resized
+    window.onresize = function () {
+        console.log("Hi");
+        if($(window).width() <= 600) {
+            $("#profile-pic").attr("src", "assets/images/profilepic cropped.png");
+            
+        }
+        else {
+            $("#profile-pic").attr("src", "assets/images/profilepic.png");
+        }
+    }
 
     var previous_id = 'home-nav';
 

@@ -47,12 +47,6 @@ table {
     border-spacing: 0;
 }
 
-/*
-  ========================================
-  Grid
-  ========================================
-*/
-
 :before,
 *:after {
     -webkit-box-sizing: border-box;
@@ -133,21 +127,22 @@ body {
     height: 50%;
 }
 
-.profile-pic {
-    align-self: center;
+#profile-pic {
     height: 70%;
     width: auto;
+    align-self: center;
     border-radius: 7px;
 }
 
 .about-content {
     align-self: center;
-    text-align: justify;
+    /*text-align: justify;*/
     color: white;
     padding: 0 2%;
-    width: 50%;
     height: 70%;
+    width: 40%;
     line-height: 2em;
+    overflow-y:scroll;
 }
 
 .projects-container {
@@ -237,18 +232,12 @@ li {
     animation: fadeIn 4s ease-in 1 forwards;
 }
 
-/*
-  ========================================
-  Typography
-  ========================================
-*/
-
 h1, h2, h3 {
     font-family: "Montserrat", "Century Gothic";
 }
 
 h1 {
-    font-size: 120px;
+    font-size: 115px;
 }
 
 h3 {
@@ -257,5 +246,47 @@ h3 {
 
 p {
     font-family: "Lato", Calibri;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+    .about-container {
+        flex-direction: column;
+    }
+
+    #profile-pic {
+        height:50%;
+        width:auto;
+        margin: 2% 2% 2% 2%;
+    }
+
+    .about-content {
+        margin: 2% 2% 2% 2%;
+        line-height: normal;
+        width:auto;
+    }
+    .contact-link {
+        width: 40px;
+        height: 40px;
+    }
+    .contact-logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    li {
+        font-size: 12px;
+    }
 }
