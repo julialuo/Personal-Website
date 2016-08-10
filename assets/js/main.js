@@ -42,7 +42,6 @@ $(document).ready(function() {
 
     //check window size again whenever window is resized
     window.onresize = function () {
-        console.log("Hi");
         if($(window).width() <= 600) {
             $("#profile-pic").attr("src", "assets/images/profilepic cropped.png");
             
