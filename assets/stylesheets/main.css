@@ -306,6 +306,10 @@ p {
         line-height: normal;
         width:auto;
     }
+
+    .project-slide {
+        width: 100%;
+    }
     .contact-link {
         width: 40px;
         height: 40px;
