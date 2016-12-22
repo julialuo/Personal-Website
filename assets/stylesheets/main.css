@@ -125,7 +125,7 @@ body {
     height: 70%;
     width: auto;
     align-self: center;
-    border-radius: 7px;
+    /*border-radius: 7px;*/
 }
 
 .about-content {
@@ -134,6 +134,7 @@ body {
     padding: 0 2%;
     height: 70%;
     width: 40%;
+    background-color: rgb(58, 53, 123);
     line-height: 2em;
     overflow-y: scroll;
 }
@@ -153,8 +154,8 @@ body {
     *zoom: 1;
     vertical-align: top;
     width: 50%;
-    height: 100%;
     overflow-y: auto;
+    height: 100%;
     white-space: normal;
     align-items: center;
     /*background-color:  rgb(126, 0, 64);*/
@@ -167,19 +168,21 @@ body {
     margin: 0 auto;
 }
 
-.project-title {
+.project-info {
     display: block;
     width: 95%;
+    height: 41.3%;
     margin: 0 auto;
+    background-color: rgb(230, 138, 138);
+}
+
+.project-title {
     text-align: center;
     color: white;
     padding: 2% 0 2% 0;
 }
 
 .project-description {
-    display: block;
-    width: 95%;
-    margin: 0 auto;
     text-align: center;
     font-weight: bold;
     color: rgb(126, 0, 64);
