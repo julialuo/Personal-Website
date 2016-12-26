@@ -125,6 +125,7 @@ body {
     height: 70%;
     width: auto;
     align-self: center;
+    box-shadow: 0.05em 0.05em black;
     /*border-radius: 7px;*/
 }
 
@@ -137,6 +138,7 @@ body {
     background-color: rgb(58, 53, 123);
     line-height: 2em;
     overflow-y: scroll;
+    box-shadow: 0.05em 0.05em black;
 }
 
 .projects-container {
@@ -184,9 +186,10 @@ body {
 
 .project-description {
     text-align: center;
+    line-height: 120%;
     font-weight: bold;
     color: rgb(126, 0, 64);
-    padding: 0 0 2% 0;
+    padding: 0 2% 2% 2%;
 }
 
 .contact-container {
