@@ -12,6 +12,8 @@ $(document).ready(function() {
         $("#profile-pic").attr("src", "assets/images/mdb.png");
     }
 
+    adjustSidebarWidth();
+
     //colour changes on home page based on cursor position
     /*$(document).mousemove(function(e){
         var $width = ($(document).width())/255;
@@ -42,6 +44,7 @@ $(document).ready(function() {
 
     //check window size again whenever window is resized
     window.onresize = function () {
+        adjustSidebarWidth();
         if($(window).width() <= 600) {
             $("#profile-pic").attr("src", "assets/images/mdb_cropped.png");
             
@@ -135,3 +138,10 @@ $(document).ready(function() {
         offset: '-1%'
     });
 });
+
+function adjustSidebarWidth() {
+    var contentWidth = $("#content").width();
+    var contentHeight = $("#content").height();
+    $("ul").width(contentWidth * 0.2);
+    $("ul").height(contentHeight);
+}
