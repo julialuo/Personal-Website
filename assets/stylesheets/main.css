@@ -223,7 +223,7 @@ p {
     height: 100%;
     line-height: 2em;
     overflow-y: scroll;
-    color: rgba(60, 60, 60, 1)
+    color: rgba(60, 60, 60, 1);
 }
 
 .projects-container {
@@ -252,6 +252,7 @@ p {
 }
 
 .project-title {
+    line-height: 1.5em;
     padding: 5% 5% 0 5%;
     text-align: center;
     opacity: 0;
@@ -266,11 +267,11 @@ p {
 #project1 {
     grid-column: 1;
     grid-row: 1;
-    background-image: url("../images/squaretest.png");
+    background-image: url("../images/lol.png");
 }
 
 #project1:hover {
-    opacity: 0.5;
+    background-image: url("../images/lol_faded.png");
 }
 
 #project1:hover #project1-title {
@@ -284,11 +285,11 @@ p {
 #project2 {
     grid-column: 2;
     grid-row: 1;
-    background-image: url("../images/squaretest.png");
+    background-image: url("../images/preserve.png");
 }
 
 #project2:hover {
-     opacity: 0.5;
+    background-image: url("../images/preserve_faded.png");
  }
 
 #project2:hover #project2-title {
@@ -302,11 +303,11 @@ p {
 #project3 {
     grid-column: 1;
     grid-row: 2;
-    background-image: url("../images/squaretest.png");
+    background-image: url("../images/ethos.png");
 }
 
 #project3:hover {
-    opacity: 0.5;
+    background-image: url("../images/ethos_faded.png");
 }
 
 #project3:hover #project3-title {
@@ -320,19 +321,21 @@ p {
 #project4 {
     grid-column: 2;
     grid-row: 2;
-    background-image: url("../images/squaretest.png");
+    background-image: url("../images/petreon.png");
 }
 
 #project4:hover {
-    opacity: 0.5;
+    background-image: url("../images/petreon_faded.png");
 }
 
 #project4:hover #project4-title {
     opacity: 1;
+    /*color: rgba(60, 60, 60, 1);*/
 }
 
 #project4:hover #project4-links {
     opacity: 1;
+    /*color: rgba(60, 60, 60, 1);*/
 }
 
 .footer {
@@ -399,53 +402,23 @@ li {
     animation: fadeIn 4s ease-in 1 forwards;
 }
 
-@media screen and (max-width: 600px) {
-    ul {
-        width: 20%;
-    }
+@media screen and (max-width: 1000px) {
 
-    .slide {
-        width: 80%;
-    }
-
-
-    .about-container {
-        flex-direction: column;
-    }
-
-    #profile-pic {
-        height: 50%;
-        width: auto;
+    .paragraph-content {
         margin: 2% 2% 2% 2%;
-    }
-
-    .about-content {
-        margin: 2% 2% 2% 2%;
-        line-height: normal;
-        width:auto;
-    }
-
-    .project-slide {
-        max-height: 100%;
-        min-width: 50%;
-    }
-
-    .contact-link {
-        width: 40px;
-        height: 40px;
-    }
-
-    .contact-logo {
-        width: 40px;
-        height: 40px;
+        line-height: 1.3em;
     }
 
     h1 {
-        font-size: 60px;
+        font-size: 40px;
     }
 
     h3 {
         font-size: 20px;
+    }
+
+    h4 {
+        font-size: 12px;
     }
 
     p {
