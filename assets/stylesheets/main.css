@@ -119,16 +119,6 @@ p {
     box-shadow:0 0 5px 0 darkslategray;
 }
 
-.background-image {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    background-image: url("../images/whirlpool_20.png");
-}
-
 .slide {
     display: -webkit-box;
     display: -webkit-flex;
@@ -152,7 +142,7 @@ p {
     flex-direction: column;
     width: 100%;
     /*height: 100%;*/
-    padding: 2% 0;
+    padding: 2%;
 }
 
 .header-container {
@@ -189,16 +179,6 @@ p {
 .side-pic {
     height: 100%;
     width: auto;
-    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-    /*border-radius: 7px;*/
-}
-
-.container_footer {
-    background-image: linear-gradient(to top,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.7) 30%);
-    height: 4%;
-    width: 100%;
 }
 
 .contact-link {
@@ -224,6 +204,7 @@ p {
     line-height: 2em;
     overflow-y: scroll;
     color: rgba(60, 60, 60, 1);
+    min-width: 200px;
 }
 
 .projects-container {
@@ -338,15 +319,6 @@ p {
     /*color: rgba(60, 60, 60, 1);*/
 }
 
-.footer {
-    position: relative;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 1% 0;
-    text-align: center;
-}
-
 ul {
     float: left;
     position: fixed;
@@ -387,7 +359,6 @@ li {
 
 ::-webkit-scrollbar-thumb {
     background-color: darkgrey;
-    /*outline: 2px solid slategrey;*/
     border: 1px solid lightslategrey;
 }
 
@@ -403,7 +374,6 @@ li {
 }
 
 @media screen and (max-width: 1000px) {
-
     .paragraph-content {
         margin: 2% 2% 2% 2%;
         line-height: 1.3em;
@@ -427,5 +397,39 @@ li {
 
     li {
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #left, #right {
+        width: 60px;
+    }
+
+    #top, #bottom {
+        height: 40px;
+    }
+
+    #content {
+        top: 40px; bottom: 40px;
+        left: 60px; right: 60px;
+    }
+
+    .projects-container {
+        grid-template-columns: 100%;
+    }
+
+    #project2 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #project3 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    #project4 {
+        grid-column: 1;
+        grid-row: 4;
     }
 }
