@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66a2ceaf-4ff9-4618-8e44-54a1f068c1fc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Personal Website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -369,7 +369,7 @@
       <workItem from="1529205739544" duration="14048000" />
       <workItem from="1529300518126" duration="40000" />
       <workItem from="1529384484993" duration="13621000" />
-      <workItem from="1529909012460" duration="8696000" />
+      <workItem from="1529909012460" duration="9293000" />
     </task>
     <task id="LOCAL-00001" summary="Major changes">
       <created>1468121868922</created>
@@ -592,11 +592,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164153000" />
+    <option name="totallyTimeSpent" value="164750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-14" y="-14" width="3228" height="1738" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
