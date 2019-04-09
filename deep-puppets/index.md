@@ -69,11 +69,11 @@ By our end-of-month milestone, we plan to complete:
 
 ## Schedule
 
-**4/14** - Complete 3D morphable model with parameters for face identity and expression.
-**4/21** - Complete monocular face reconstruction program and successfully fit identity, expression, and texture parameters to an image of Putin. Render resulting mesh and verify it looks reasonable.
-**4/24** - Complete `generate_conditioning_images.py` program that can synthesize a sequence of 1000 conditioning images of Putin with modified expressions, given an arbitrary source video and a target video of Putin.
-**4/30** - Complete mid-project milestone report.
-**5/6** - Complete render-to-video translation network with preliminary results.
+**4/14** - Complete 3D morphable model with parameters for face identity and expression.<br/>
+**4/21** - Complete monocular face reconstruction program and successfully fit identity, expression, and texture parameters to an image of Putin. Render resulting mesh and verify it looks reasonable.<br/>
+**4/24** - Complete `generate_conditioning_images.py` program that can synthesize a sequence of 1000 conditioning images of Putin with modified expressions, given an arbitrary source video and a target video of Putin.<br/>
+**4/30** - Complete mid-project milestone report.<br/>
+**5/6** - Complete render-to-video translation network with preliminary results.<br/>
 **5/14** - Complete final report.
 
 
